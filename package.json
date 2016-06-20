@@ -1,24 +1,23 @@
 {
-  "name": "html-and-css",
+  "name": "html",
   "version": "1.0.0",
-  "description": "An introduction to HTML & CSS for use on the GA Web Development Immersive course.",
-  "main": "index.js",
+  "description": "HTML textbook for use on the GA Web Development Immersive course.",
   "scripts": {
     "docs:prepare": "gitbook install",
     "docs:watch": "npm run docs:prepare && gitbook serve",
     "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build",
-    "docs:publish": "npm run docs:build && cd _book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add . && git commit -am 'Update docs' && git push git@github.com:WDI-Library/html-and-css gh-pages --force"
+    "docs:publish": "npm run docs:build && cd _book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add . && git commit -am 'Update docs' && git push git@github.com:WDI-Library/html gh-pages --force"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WDI-Library/html-and-css.git"
+    "url": "git+https://github.com/WDI-Library/html.git"
   },
   "author": "Alex Chin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WDI-Library/html-and-css/issues"
+    "url": "https://github.com/WDI-Library/html/issues"
   },
-  "homepage": "https://github.com/WDI-Library/html-and-css#readme",
+  "homepage": "https://github.com/WDI-Library/html#readme",
   "devDependencies": {
     "gitbook-cli": "^2.3.0"
   }

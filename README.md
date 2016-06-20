@@ -1,2 +1,2 @@
-# HTML & CSS
-An introduction to HTML and CSS for use on the GA Web Development Immersive course.
+# HTML
+An introduction to HTML for use on the GA Web Development Immersive course.
