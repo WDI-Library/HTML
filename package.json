@@ -1,7 +1,7 @@
 {
   "name": "html-and-css",
   "version": "1.0.0",
-  "description": "An introduction to HTML for use on the GA Web Development Immersive course.",
+  "description": "An introduction to HTML & CSS for use on the GA Web Development Immersive course.",
   "main": "index.js",
   "scripts": {
     "docs:prepare": "gitbook install",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WDI-Library/HTML-and-CSS.git"
+    "url": "git+https://github.com/WDI-Library/html-and-css.git"
   },
   "author": "Alex Chin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WDI-Library/HTML-and-CSS/issues"
+    "url": "https://github.com/WDI-Library/html-and-css/issues"
   },
-  "homepage": "https://github.com/WDI-Library/HTML-and-CSS#readme",
+  "homepage": "https://github.com/WDI-Library/html-and-css#readme",
   "devDependencies": {
     "gitbook-cli": "^2.3.0"
   },
